@@ -1,0 +1,7 @@
+signature_rules:
+  - name: "SYN Flood"
+    condition: "tcp_flags == 2 and packet_rate > 100"
+    protocol: "tcp"
+  - name: "DNS Amplification"
+    condition: "protocol == 17 and packet_size > 512"
+    protocol: "udp"
