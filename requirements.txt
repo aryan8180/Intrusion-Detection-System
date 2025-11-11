@@ -1,0 +1,9 @@
+scapy
+pandas
+numpy
+scikit-learn
+joblib
+flask
+sqlalchemy
+python-dateutil
+psutil
